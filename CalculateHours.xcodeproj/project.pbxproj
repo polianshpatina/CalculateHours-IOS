@@ -7,17 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A9D0301221AB77A000FEEA3 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9D0300221AB77A000FEEA3 /* CurrencyTxtField.swift */; };
+		4A9D0309221ADBBE000FEEA3 /* CalculateHoursTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9D0308221ADBBE000FEEA3 /* CalculateHoursTests.swift */; };
+		4A9D0312221ADC0C000FEEA3 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9D0311221ADC0C000FEEA3 /* Wage.swift */; };
+		4A9D0313221ADDB3000FEEA3 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9D0311221ADC0C000FEEA3 /* Wage.swift */; };
+		4A9D0316221AE98D000FEEA3 /* CurrencyInputFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9D0315221AE98D000FEEA3 /* CurrencyInputFormat.swift */; };
+		4A9D0318221AF159000FEEA3 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9D0317221AF159000FEEA3 /* Alerts.swift */; };
 		4AA0C1872216F36C00F4C573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA0C1862216F36C00F4C573 /* AppDelegate.swift */; };
-		4AA0C1892216F36C00F4C573 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA0C1882216F36C00F4C573 /* ViewController.swift */; };
+		4AA0C1892216F36C00F4C573 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA0C1882216F36C00F4C573 /* MainVC.swift */; };
 		4AA0C18C2216F36C00F4C573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA0C18A2216F36C00F4C573 /* Main.storyboard */; };
 		4AA0C18E2216F36E00F4C573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA0C18D2216F36E00F4C573 /* Assets.xcassets */; };
 		4AA0C1912216F36E00F4C573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA0C18F2216F36E00F4C573 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4A9D030B221ADBBE000FEEA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AA0C17B2216F36C00F4C573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AA0C1822216F36C00F4C573;
+			remoteInfo = CalculateHours;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		4A9D0300221AB77A000FEEA3 /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
+		4A9D0306221ADBBE000FEEA3 /* CalculateHoursTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculateHoursTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A9D0308221ADBBE000FEEA3 /* CalculateHoursTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateHoursTests.swift; sourceTree = "<group>"; };
+		4A9D030A221ADBBE000FEEA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A9D0311221ADC0C000FEEA3 /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
+		4A9D0315221AE98D000FEEA3 /* CurrencyInputFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyInputFormat.swift; sourceTree = "<group>"; };
+		4A9D0317221AF159000FEEA3 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		4AA0C1832216F36C00F4C573 /* CalculateHours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculateHours.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA0C1862216F36C00F4C573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4AA0C1882216F36C00F4C573 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AA0C1882216F36C00F4C573 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		4AA0C18B2216F36C00F4C573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AA0C18D2216F36E00F4C573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AA0C1902216F36E00F4C573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -25,6 +48,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4A9D0303221ADBBD000FEEA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4AA0C1802216F36C00F4C573 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,10 +65,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A9D02FE221AB583000FEEA3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4AA0C1882216F36C00F4C573 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A9D02FF221AB72B000FEEA3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A9D0300221AB77A000FEEA3 /* CurrencyTxtField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4A9D0307221ADBBE000FEEA3 /* CalculateHoursTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A9D0308221ADBBE000FEEA3 /* CalculateHoursTests.swift */,
+				4A9D030A221ADBBE000FEEA3 /* Info.plist */,
+			);
+			path = CalculateHoursTests;
+			sourceTree = "<group>";
+		};
+		4A9D0310221ADBE4000FEEA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A9D0311221ADC0C000FEEA3 /* Wage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A9D0314221AE97D000FEEA3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4A9D0315221AE98D000FEEA3 /* CurrencyInputFormat.swift */,
+				4A9D0317221AF159000FEEA3 /* Alerts.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		4AA0C17A2216F36C00F4C573 = {
 			isa = PBXGroup;
 			children = (
 				4AA0C1852216F36C00F4C573 /* CalculateHours */,
+				4A9D0307221ADBBE000FEEA3 /* CalculateHoursTests */,
 				4AA0C1842216F36C00F4C573 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				4AA0C1832216F36C00F4C573 /* CalculateHours.app */,
+				4A9D0306221ADBBE000FEEA3 /* CalculateHoursTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,8 +128,11 @@
 		4AA0C1852216F36C00F4C573 /* CalculateHours */ = {
 			isa = PBXGroup;
 			children = (
+				4A9D0314221AE97D000FEEA3 /* Utilities */,
+				4A9D0310221ADBE4000FEEA3 /* Model */,
+				4A9D02FF221AB72B000FEEA3 /* Views */,
+				4A9D02FE221AB583000FEEA3 /* Controller */,
 				4AA0C1862216F36C00F4C573 /* AppDelegate.swift */,
-				4AA0C1882216F36C00F4C573 /* ViewController.swift */,
 				4AA0C18A2216F36C00F4C573 /* Main.storyboard */,
 				4AA0C18D2216F36E00F4C573 /* Assets.xcassets */,
 				4AA0C18F2216F36E00F4C573 /* LaunchScreen.storyboard */,
@@ -67,6 +144,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4A9D0305221ADBBD000FEEA3 /* CalculateHoursTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A9D030D221ADBBE000FEEA3 /* Build configuration list for PBXNativeTarget "CalculateHoursTests" */;
+			buildPhases = (
+				4A9D0302221ADBBD000FEEA3 /* Sources */,
+				4A9D0303221ADBBD000FEEA3 /* Frameworks */,
+				4A9D0304221ADBBD000FEEA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A9D030C221ADBBE000FEEA3 /* PBXTargetDependency */,
+			);
+			name = CalculateHoursTests;
+			productName = CalculateHoursTests;
+			productReference = 4A9D0306221ADBBE000FEEA3 /* CalculateHoursTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		4AA0C1822216F36C00F4C573 /* CalculateHours */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AA0C1952216F36E00F4C573 /* Build configuration list for PBXNativeTarget "CalculateHours" */;
@@ -94,6 +189,10 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = UFT;
 				TargetAttributes = {
+					4A9D0305221ADBBD000FEEA3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4AA0C1822216F36C00F4C573;
+					};
 					4AA0C1822216F36C00F4C573 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -113,11 +212,19 @@
 			projectRoot = "";
 			targets = (
 				4AA0C1822216F36C00F4C573 /* CalculateHours */,
+				4A9D0305221ADBBD000FEEA3 /* CalculateHoursTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4A9D0304221ADBBD000FEEA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4AA0C1812216F36C00F4C573 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -131,16 +238,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4A9D0302221ADBBD000FEEA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9D0309221ADBBE000FEEA3 /* CalculateHoursTests.swift in Sources */,
+				4A9D0313221ADDB3000FEEA3 /* Wage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4AA0C17F2216F36C00F4C573 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AA0C1892216F36C00F4C573 /* ViewController.swift in Sources */,
+				4A9D0316221AE98D000FEEA3 /* CurrencyInputFormat.swift in Sources */,
+				4A9D0301221AB77A000FEEA3 /* CurrencyTxtField.swift in Sources */,
+				4A9D0312221ADC0C000FEEA3 /* Wage.swift in Sources */,
+				4AA0C1892216F36C00F4C573 /* MainVC.swift in Sources */,
+				4A9D0318221AF159000FEEA3 /* Alerts.swift in Sources */,
 				4AA0C1872216F36C00F4C573 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A9D030C221ADBBE000FEEA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AA0C1822216F36C00F4C573 /* CalculateHours */;
+			targetProxy = 4A9D030B221ADBBE000FEEA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4AA0C18A2216F36C00F4C573 /* Main.storyboard */ = {
@@ -162,6 +290,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4A9D030E221ADBBE000FEEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalculateHoursTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uft.CalculateHoursTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculateHours.app/CalculateHours";
+			};
+			name = Debug;
+		};
+		4A9D030F221ADBBE000FEEA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalculateHoursTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uft.CalculateHoursTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculateHours.app/CalculateHours";
+			};
+			name = Release;
+		};
 		4AA0C1932216F36E00F4C573 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -315,6 +481,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4A9D030D221ADBBE000FEEA3 /* Build configuration list for PBXNativeTarget "CalculateHoursTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A9D030E221ADBBE000FEEA3 /* Debug */,
+				4A9D030F221ADBBE000FEEA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4AA0C17E2216F36C00F4C573 /* Build configuration list for PBXProject "CalculateHours" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
